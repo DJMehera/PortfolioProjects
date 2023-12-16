@@ -7,7 +7,7 @@ ORDER BY 3, 4
 --ORDER BY 3, 4
 
 
-
+-- Taking a look at selective columns
 SELECT location, date, total_cases, new_cases, total_deaths, population
 FROM covid_db..CovidDeaths
 WHERE continent IS NOT NULL
